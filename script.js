@@ -1,75 +1,66 @@
-
-// არითმეტიკული ოპერატორები
-// let a = 10;
-// let b = 2;
-
-// console.log(a + b)
-// console.log(a - b)
-// console.log(a * b)
-// console.log(a / b)
-// console.log(a % b)
-///////////////////////////////
-
-
-// მინიჭების ოპერატორები
-
-// let x = 5;
-// let y = 10;
-
-// console.log(x+=y)
-// console.log(x-=y)
-// console.log(x*=y)
-// console.log(x/=y)
-// console.log(x%=y)
+// let x = 5; 
+// let y = 10; 
+// let z; 
+// z = x+=y; 
 
 
 
-// შედარების ოპერატორები
-// console.log(10 == '10')
-// console.log(10 === '10')
-// console.log(10 != 5)
 // console.log(10 > 5)
 // console.log(10 < 5)
-// console.log(10 <= 5)
 // console.log(10 >= 5)
-
-// ლოგიკური ოპერატორები
-// let a =  true;
-// let b = false;
-
-
-// console.log(a && b) // "და"  ორივე უნდა იყოს true
-// console.log(a || b) // "ან"  ერთი მაინც უნდა იყოს true
-// console.log(!a) // თუ არის true გამოიტანს false....
-// console.log(!(a && b)) 
+// console.log(10 <= 5)
+// console.log(10 != 10)
+// console.log(10 !== '10')
 
 
-
-// Template Literals
-
-// let name  = "Luka"
-// let secondName = "Kheladze"
-
-// console.log(`გამარჯობა მე მქვია ${name} , ჩემი გვარია ${secondName} `)
-
-////////////////////
-
-
-// პირობები
-
-
-// let temperature = 25;
-
-// if(temperature >= 40 ){
-//     console.log("გარეთ ძალიან ცხელა დარჩი სახლში!")
-// } else{
-//     console.log("გადი ისეირნე!")
-// }
+let classEmpty = true;
+let classFull = false;
+let teacherIn = false;
+let next = false;
+let now = false;
+let happy = false;
 
 
 
-// accecing characters
 
-let str = "გამარჯობა"
+// let temperature = 20;
 
-console.log(str[8])
+
+if(temperature >= 45){
+    console.log("stay home"); 
+}else if( temperature <= 30){
+    console.log("wadi iseirne")
+}else {
+    console.log("Normal weather")
+}
+
+
+
+let firstName = ["Merab", 'Jiqidze']
+// let firstNameForIlia = "Ilia"
+
+console.log(firstName[0])
+// console.log(firstNameForIlia.charAt(0))
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
